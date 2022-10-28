@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:white">
+    <h2 style="color:green"> What is a Pet? </h2>
+    <blockquote cite="https://en.wikipedia.org/wiki/Pet"> A pet, or companion animal, is an animal kept primarily for a person's company or entertainment rather than as a working animal, livestock, or a laboratory animal. Popular pets are often considered to have attractive appearances, intelligence, and relatable personalities, but some pets may be taken in on an altruistic basis (such as a stray animal) and accepted by the owner regardless of these characteristics.</blockquote>
+    <p> Above definition of a 'Pet' has been taken from 'Wikipedia'. To read more, <a href="https://en.wikipedia.org/wiki/Pet" target="_main">click here </a></p>
+    <p> There are mainly two types of pets, i.e., Indoor Pets and Outdoor Pets.</p>
+    <h2 style="color:green">Examples of Indoor Pets.</h2>
+    <ol>
+        <li> Cats </li>
+        <li> Dogs </li>
+        <li> Birds </li>
+        <li> Tortoises </li>
+    </ol>
+    <h2 style="color:green">Examples of Outdoor Pets.</h2>
+    <ul>
+        <li> Horses </li>
+        <li> Rabbits </li>
+        <li> Turtles </li> 
+    </ul>
+    <h2 style="color:green"> Talking about Turtles and Tortoises, I would like to highlight the differences between the two</h2>
+    <dl>
+        <dt> Turtles </dt>
+        <dd> Are lighter </dd>
+        <dd> Relatively short life span of 40 years</dd>
+        <dd> Mainly lives in Water</dd>
+        <br>
+        <dt> Tortoises </dt>
+        <dd> Are Heavier </dd>
+        <dd> High life span of 100 years </dd>
+        <dd> Mainly lives on Land</dd>
+    </dl>
+    <h2 style="color:green">About Worldwide Acceptance and Adoptance of Pets</h2>
+    <p style="background-color:red;color:yellow"> Many people have adapted Dogs as pets in their homes across the world. Dogs are very popular as pets and Cats come in the next place after Dogs. Many people also have Birds as pets in their home. I personally <b>like Cats</b> more, hence I am attaching a <i>Cat picture</i> below.</p>
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Cat" >
+    <br>
+    <h2 style="color:green"> Here's an table describing different Categories of Pets. </h2>
+    <table>
+        <style> 
+            table,tr,th,td{border: 1px solid black;border-collapse:collapse;}
+        </style>
+        <tr>
+            <th colspan="2"> Categories of Pets </th> 
+        </tr>
+        <tr>
+            <th rowspan="2"> Traditional Pets </th>
+            <td> Cats </td>
+        </tr>
+        <tr>
+            <td> Dogs </td>
+        </tr>
+        <tr>
+            <th rowspan="3"> Exotic Pets </th>
+            <td> Turtles </td>
+        </tr>
+        <tr>
+            <td> Tortoises </td>
+        </tr>
+        <tr>
+            <td> Bees </td>
+        </tr>
+    </table>
+    <h2 style="color:green"> Please select how many Pet(s) do you have? </h2>
+    <form>
+        <select>
+            <option value="zero"> 0 </option>
+            <option value="one" selected> 1 </option>
+            <option value="two"> 2 </option>
+            <option value="three"> 3 </option>
+            <option value="more"> More </option>
+        </select>
+    </form>
+</form>
+<h2 style="color:green"> Which Pet(s) do you have? </h2>
+<form action="/something.php">
+    <label for="cat">
+        <input type="checkbox" value="cat" name="which" id="cat"> Cat
+    </label>
+    <br>
+    <label for="dog">
+        <input type="checkbox" value="dog" name="which" id="dog"> Dog
+    </label>
+    <br>
+    <label for="bird">
+        <input type="checkbox" value="bird" name="which" id="bird"> Bird
+    </label>
+    <br>
+    <label for="others">
+        <input type="checkbox" value="others" name="which" id="others"> Others
+    </label>
+</form>
+    <h2 style="color:green"> How did you get your current Pet(s)?</h2>
+    <form action="/something.php">
+        <label for="rescued">
+            <input type="radio" value="rescued" name="How" id="rescued"> Rescued 
+        </label>
+        <br>
+        <label for="adopted">
+            <input type="radio" value="adopted" name="How" id="adopted"> Adopted 
+        </label>
+        <br>
+        <label for="bought">
+            <input type="radio" value="bought" name="How" id="bought"> Bought 
+        </label>
+        <br>
+    </form>
+    <br>
+    <p> Please click on the below Submit button to submit your responses. </p>
+    <form action="/something.php">
+        <input type="submit"> 
+    </form>
+    
+</body>
+</html>
